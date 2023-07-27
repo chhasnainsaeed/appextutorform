@@ -226,7 +226,6 @@ doyouhavewwccno.style.display = 'none';
 });
 
 
-    <script>
  function tvalidateStep2() {
 
   var step5ErrorselectMessage = document.getElementById('step5ErrorselectMessage');
@@ -240,12 +239,10 @@ doyouhavewwccno.style.display = 'none';
   step5ErrorselectMessage.style.display = 'none';
   step5ErrorfilloutMessage.style.display = 'none';
   step5ErrorvalidemailMessage.style.display = 'none';
-
- 
     
      // Validate text input fields
-     var textFieldname = document.getElementById('Tutor-Name');
-    var textValue = textFieldname.value.trim();
+     var textfield = document.getElementById('Tutor-Name');
+    var textValue = textfield.value.trim();
     if (textValue === '') {
       // Display error message for empty field
       step5ErrorfilloutMessage.style.display = 'block';
@@ -437,4 +434,4 @@ doyouhavewwccno.style.display = 'none';
       return false; // Validation failed
     } 
   
-  </script>
+  
