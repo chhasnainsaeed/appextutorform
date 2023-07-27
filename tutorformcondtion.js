@@ -31,7 +31,7 @@ if (!isValid) {
 } 
 
 else if (currentStept === 3) {
-var isValid = tvalidateStep4();
+var isValid = ttvalidateStep4();
 if (!isValid) {
   return; // Don't proceed to the next step if validation fails
 }
